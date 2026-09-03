@@ -1,0 +1,34 @@
+{
+ "schema": "joctv.safety-feed.v1",
+ "sequence": 1,
+ "version": "2026.08.18-1",
+ "published_at": "2026-08-18T23:30:00+08:00",
+ "engine_compat": {
+  "feed_schema": "joctv.safety-rule.v1",
+  "min_engine_version": 1
+ },
+ "files": [
+  {
+   "name": "rules.jsonl.zst",
+   "sha256": "00e0e3f5a8aee60b2c0ddbbdf127438dba64734f5b28b3b2d07236ceac7fbb8a",
+   "size": 946
+  },
+  {
+   "name": "responses.json",
+   "sha256": "18cccd6a0840d0113deb9845361ba9ce3daf369a0b53a90c26c7e060a254f280",
+   "size": 1001
+  },
+  {
+   "name": "examples.positive.jsonl",
+   "sha256": "54712a7c62513c5580e8e9b3e32b816b2353b67a7c1ca2cf27ff9be948def6bd",
+   "size": 749
+  },
+  {
+   "name": "examples.negative.jsonl",
+   "sha256": "7e202a982a87d0549b93cb8a378b226ed574206f96c260c9b8eaf6580b7b3a00",
+   "size": 586
+  }
+ ],
+ "sig_alg": "ed25519",
+ "signature": "5qUU5JK8h397FB9emOatdpg9gb7l/qIs0+i+38M2fPLNp8DscH+kRshrAV/eFeIk+Od/VFWMOFWZ/MNhprVlAQ=="
+}

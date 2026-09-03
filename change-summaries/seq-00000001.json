@@ -1,0 +1,33 @@
+{
+  "schema_version": "joctv-safety-feed-change-summary-v1",
+  "base_sequence": null,
+  "next_sequence": 1,
+  "base_version": null,
+  "next_version": "2026.08.18-1",
+  "base_source_sha256": null,
+  "next_source_sha256": "9680593ce09990694ca0d30c067d962403e1c37fa465b51ed86de6860010c49a",
+  "reason": "版本链起点：import 现行平台安全规则库 (p4_admin/tools/safety_feed_v1.json 五键内容) 为 sequence 1 基线；后续版本由 joctv-safety-feed-skill 从上一完整版本 + 机器可读变更请求生成。",
+  "operations_applied": 0,
+  "changes": {
+    "categories_added": [],
+    "categories_deleted": [],
+    "categories_modified": [],
+    "rules_added": [],
+    "rules_deleted": [],
+    "rules_modified": [],
+    "responses_added": [],
+    "responses_deleted": [],
+    "responses_modified": [],
+    "examples_positive_added": [],
+    "examples_positive_deleted": [],
+    "examples_negative_added": [],
+    "examples_negative_deleted": []
+  },
+  "counts": {
+    "categories": 2,
+    "rules": 35,
+    "responses": 2,
+    "examples_positive": 18,
+    "examples_negative": 10
+  }
+}
